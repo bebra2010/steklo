@@ -1,0 +1,50 @@
+#footer
+{
+    width: 100%;
+    font-family: Bahnschrift;
+    font-weight: 100;
+    background-color: #292929;
+    color: white;
+}
+
+#footer > .container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.left-footer
+{
+    align-content:space-between;
+}
+
+.left-footer > img
+{
+    width: 22rem;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.right-footer
+{
+    display: flex;
+
+}
+
+.main-list
+{
+    list-style-type: circle;
+    align-self: center;
+    justify-self: end;
+}
+.main-list > li > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.mobile
+{
+    display: none;
+}

@@ -1,0 +1,320 @@
+@import url(/css/header.css);
+@import url(/css/footer.css);
+@import url(/css/hero.css);
+@import url(/css/about__us.css);
+@import url(/css/feedback.css);
+@import url(/css/assort.css);
+@import url(/css/contact.css);
+@import url(/css/callback.css);
+@import url(/css/glass__partitions.css);
+@import url(/css/glass__partitions__wprint.css);
+@import url(/css/glass__shelves.css);
+@import url(/css/glass__cabinets.css);
+@import url(/css/custom__glazing.css);
+@import url(/css/custom__mirror.css);
+
+@font-face { font-family: "Bahnschrift"; src: url(/fonts/bahnschrift.ttf); color: #292929; }
+@font-face { font-family: "Comfortaa-Medium"; src: url(/fonts/Comfortaa-Medium.ttf); color: #292929; }
+@font-face { font-family: "Comfortaa-SemiBold"; src: url(/fonts/Comfortaa-SemiBold.ttf); color: #292929; }
+@font-face { font-family: "Comfortaa"; src: url(/fonts/Comfortaa-VariableFont_wght.ttf); color: #292929; }
+@font-face { font-family: "Misto"; src: url(/fonts/Misto.ttf); color: #292929; }
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#toTop
+{
+    width: 60px;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    display:none;
+    font-size:40px;
+    cursor: pointer;
+}
+
+h2, h6, p
+{
+    margin: 0;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+@media (max-width: 768px)
+{
+    #header
+    {
+        height: 50px;
+    }
+    #logo
+    {
+        width: 9rem;
+    }
+    /* .container
+    {
+        
+    } */
+    .callback-text > p
+    {
+        font-size: 1rem;
+    }
+        .callback-text > img
+    {
+        width: 3.5rem;
+    }
+    .hero-img
+    {
+        height: 600px;
+    }
+    .hero
+    {
+        /* display: ; */
+        position: absolute;
+        bottom: 50%;
+        right: 0rem;
+        width: 100%;
+        text-align: center;
+        background-color: #ede1e3a4;
+        padding: 2rem 1rem 2rem 0;
+        border: 1px solid #ede1e379;
+        border-radius: 20px;
+        z-index: 2;
+    }
+    .quote
+    {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .name
+    {
+        border-top: 2px solid #292929;
+        padding: 10px 0 0 0;
+        font-size: 1.5rem;
+        display: inline-block;
+        line-height: normal;
+    }
+    .who
+    {
+        display: block;
+        font-size: 1rem;
+        color: #292929cf;
+    }
+
+    #footer > .container
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .not_mobile
+    {
+        display: none;
+    }
+    
+    .left-footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+    .left-footer > img
+    {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .right-footer
+    {
+        display: flex;
+    }
+    
+    .main-list
+    {
+        list-style-type: none;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    .main-list > li > a
+    {
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    .mobile
+    {
+        display: inline;
+        text-align: center;
+    }
+    .aboutus
+    {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: large;
+    }
+    .title
+    {
+        display: flex;
+        border: 1px solid #292929;
+        box-sizing: border-box;
+        border-radius: 30px;
+        margin-bottom: 40px;
+        align-self: center;
+        margin-right: 0;
+    }
+    .history
+    {
+        padding: 20px;
+    }
+    .title > h2
+    {
+        box-sizing: border-box;
+        padding: 0.5rem 1.5rem;
+    
+        font-family: Comfortaa;
+        font-size: 1.8rem;
+        display: inline-block;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .assort-cards
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .feedback-img
+    {
+        /* width: 1rem; */
+        justify-self: center;
+    }
+    /* !!! */
+    .feedback-quote > ul > li > div
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-self: center;
+
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .main-feedback
+    {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .side-feedback
+    {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    blockquote > ul
+    {
+        text-align: center;
+    }
+
+    .cards-event
+    {
+        align-items: center;
+    }
+    .cards-event > h2
+    {
+        background-color: white;
+        font-size: 2rem;
+        border-radius: 20px;
+        padding: 1.5rem 1rem;
+        width: 100%;
+    }
+    .CARDCARD > div
+    {
+        border: 0 solid white;
+    }
+
+    .callbackCARD
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    .btn
+    {
+        align-self: center;
+    }
+}
+
+.shelves
+{
+    width: 25rem;
+}
+
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0; 
+  width: 100vw;
+  height: 100vh; 
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none; 
+  opacity: 0;
+  visibility: hidden;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  width: 100%; 
+  height: 100%; 
+  max-width: 500px; 
+  max-height: 400px; 
+  background-color: #fff; 
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.modal-container.is-open { 
+  pointer-events: all; 
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__title
+{
+  font-family: "Bahnschrift";
+  color: #292929;
+  font-size: 50px;
+  text-align: center;
+}
+.modal__text
+{
+  font-family: "Comfortaa";
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}

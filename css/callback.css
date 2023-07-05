@@ -1,0 +1,48 @@
+.callback
+{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:x-large;
+}
+.callback-text
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+.callback-text > p
+{
+    font-family: Comfortaa;
+    text-align: end;
+    vertical-align: middle;
+}
+
+.callback-text > img
+{
+    width: 7rem;
+    align-self: center;
+}
+
+.callback-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin: 1rem 0;
+}
+
+.callback-input > button
+{
+    width: 14rem;
+    border-radius: 20px;
+    font-size: large;
+    margin-bottom: 4rem;
+}
+
+.form-control
+{
+    border-radius: 20px;
+}

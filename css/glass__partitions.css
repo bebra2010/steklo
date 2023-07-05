@@ -1,0 +1,127 @@
+.partitions
+{
+    display: flex;
+    background: url(/img/patritions.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 800px;
+    align-items: center;
+}
+.cards-event
+{
+    border: none;
+}
+
+.cards-event > h2
+{
+    background-color: white;
+    font-size: 3rem;
+    border-radius: 20px;
+    width: 60%;
+    padding: 2rem 2rem;
+}
+
+.cards-event
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cards-event > a > button
+{
+    width: 12rem;
+    border-radius: 30px;
+}
+
+.callbackCARD
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.MAINtext
+{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.MAINtext > p
+{
+    font-size: 1.5rem;
+    /* width: 70rem; */
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+.CARDCARD
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+.prt2
+{
+    display: flex;
+    background: url(/img/wprint.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 800px;
+    align-items: center;
+}
+.prt3
+{
+    display: flex;
+    background: url(/img/shelves.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 800px;
+    align-items: center;
+}
+.prt4
+{
+    display: flex;
+    background: url(/img/cabinets.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 800px;
+    align-items: center;
+}
+.prt5
+{
+    display: flex;
+    background: url(/img/custom.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 800px;
+    align-items: center;
+}
+.prt6
+{
+    display: flex;
+    background: url(/img/mirror.webp) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 800px;
+    align-items: center;
+}

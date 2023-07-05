@@ -1,0 +1,53 @@
+.assort-cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+.assort
+{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:x-large;
+    align-items: center;
+}
+
+.assort-img
+{
+    width: 100%;
+}
+
+.assort-title
+{
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid #29292973;
+    border-radius: 0 0 2rem 2rem;
+    padding: 1.5rem 0.5rem;
+}
+
+.assort-cards > li > a
+{
+    text-decoration: none;
+    color: #292929;
+}
+
+.assort-cards > li > a > section:hover .assort-img
+{
+    filter: none;
+    transition: 0.3s ease-in-out;
+}
+
+.assort-cards > li > a > section .assort-img
+{
+    filter: grayscale(50%);
+    transition: 0.2s ease-in-out;
+    /* display: grid; */
+}
